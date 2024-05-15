@@ -4,8 +4,11 @@ gcode:
     G91
     G1 Z5 F100 
     {% set HOME_CUR = 0.500 %}
-    {% set driver_config = printer.configfile.settings['tmc2209 stepper_x'] %}
-    {% set RUN_CUR = driver_config.run_current %}
+    {% set driver_config_x = printer.configfile.settings['tmc2209 stepper_x'] %}
+    {% set driver_config_y = printer.configfile.settings['tmc2209 stepper_y'] %}
+    {% set RUN_CUR_X = driver_config_x.run_current %}
+    {% set RUN_CUR_Y = driver_config_y.run_current %}
+    {% set ACCL_CUR = printer.configfile.settings['printer'].max_accel %}
     SET_VELOCITY_LIMIT ACCEL=500
       # Set current for sensorless homing
     {% if params.X is defined %}
@@ -28,14 +31,13 @@ gcode:
     G28 X F100
     SET_TMC_CURRENT STEPPER=stepper_y CURRENT={HOME_CUR}
     G28 Y F100
-    G1 X2 F1000
-    G1 Y2 F1000
+    G1 X105 Y105 F10000
     G28 Z F100
     {% endif %}
     {% endif %}
     {% endif %}    
-    SET_TMC_CURRENT STEPPER=stepper_x CURRENT={RUN_CUR}
-    SET_TMC_CURRENT STEPPER=stepper_y CURRENT={RUN_CUR}
-    SET_VELOCITY_LIMIT ACCEL=5000
+    SET_TMC_CURRENT STEPPER=stepper_x CURRENT={RUN_CUR_X}
+    SET_TMC_CURRENT STEPPER=stepper_y CURRENT={RUN_CUR_Y}
+    SET_VELOCITY_LIMIT ACCEL={ACCL_CUR}
     G90
     BED_MESH_PROFILE LOAD=default
