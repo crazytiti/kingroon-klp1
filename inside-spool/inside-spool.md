@@ -18,11 +18,12 @@ Need :
 12) Put your spool with the filament pointing upward.
 
 Pics :
-![8](https://github.com/crazytiti/kingroon-klp1/assets/7528397/89ee4143-ac4d-4e06-9344-122be2f460cb)
-![7](https://github.com/crazytiti/kingroon-klp1/assets/7528397/f83c4e97-afd7-4b01-a52a-bf4bd21af5c2)
-![6](https://github.com/crazytiti/kingroon-klp1/assets/7528397/8633e358-2cb1-4694-92c6-5e23ecb78335)
-![5](https://github.com/crazytiti/kingroon-klp1/assets/7528397/ad219423-4504-4634-a1d2-15e3f706fe17)
-![4](https://github.com/crazytiti/kingroon-klp1/assets/7528397/c1923e1c-3cfd-4a6d-8666-0385ce429de0)
-![3](https://github.com/crazytiti/kingroon-klp1/assets/7528397/d67c155c-0387-4ad6-b5a6-cebbf1427d1e)
-![2](https://github.com/crazytiti/kingroon-klp1/assets/7528397/b45a5ee5-8624-4c8d-9735-97bea0daf721)
+
 ![1](https://github.com/crazytiti/kingroon-klp1/assets/7528397/f685bf71-2431-46c1-8a58-11b9c0b89302)
+![2](https://github.com/crazytiti/kingroon-klp1/assets/7528397/b45a5ee5-8624-4c8d-9735-97bea0daf721)
+![3](https://github.com/crazytiti/kingroon-klp1/assets/7528397/d67c155c-0387-4ad6-b5a6-cebbf1427d1e)
+![4](https://github.com/crazytiti/kingroon-klp1/assets/7528397/c1923e1c-3cfd-4a6d-8666-0385ce429de0)
+![5](https://github.com/crazytiti/kingroon-klp1/assets/7528397/ad219423-4504-4634-a1d2-15e3f706fe17)
+![6](https://github.com/crazytiti/kingroon-klp1/assets/7528397/8633e358-2cb1-4694-92c6-5e23ecb78335)
+![7](https://github.com/crazytiti/kingroon-klp1/assets/7528397/f83c4e97-afd7-4b01-a52a-bf4bd21af5c2)
+![8](https://github.com/crazytiti/kingroon-klp1/assets/7528397/89ee4143-ac4d-4e06-9344-122be2f460cb)
